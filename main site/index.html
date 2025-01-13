@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarhad CBSE School</title>
+  <link rel="shortcut icon" href="images/sarhad-logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="css/homepage.css">
+  <link rel="stylesheet" href="css/navbar.css" />
+  <!-- Include Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playwrite+DE+Grund:wght@100..400&display=swap"
+    rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- <div class="navbody"> -->
+  <header id="nav-menu" aria-label="navigation bar">
+    <div class="navbody">
+      <div class="header-top">
+        <div class="logo-container">
+          <img src="images/logo.jpg" alt="School Logo" class="school-logo">
+          <div class="school-info">
+            <h1>SARHAD CBSE SCHOOL</h1>
+            <h6>PUNE | A CBSE AFFILIATED SCHOOL</h6>
+            <h6>AFFILIATION NO. XXXXX</h6>
+          </div>
+        </div>
+        <div class="button-group">
+          <a href="path/to/mandatory-public-disclosure.pdf" class="header-button" target="_blank"
+            onclick="printPage()">Mandatory Public Disclosure</a>
+          <a href="path/to/schools-brochure.pdf" target="_blank" class="header-button">School Brochure</a>
+          <a href="#login-signup" class="header-button">Login/Signup</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="nav-start">
+          <nav class="menu">
+            <ul class="menu-bar">
+              <li>
+                <button class="nav-link dropdown-btn" data-dropdown="dropdown1" aria-haspopup="true"
+                  aria-expanded="false" aria-label="browse">Home<i class="bx bx-chevron-down"
+                    aria-hidden="true"></i></button>
+                <div id="dropdown1" class="dropdown">
+                  <ul role="menu">
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#best-of-the-day">
+                        <img src="./assets/icons/botd.svg" class="icon" />
+                        <div>
+                          <span class="dropdown-link-title">Our Toppers</span>
+                          <p>The nation builders</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#featured-streams">
+                        <img src="./assets/icons/fs.svg" class="icon" />
+                        <div>
+                          <span class="dropdown-link-title">Activities</span>
+                          <p>It brings the best in our students</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#subscriptions">
+                        <img src="./assets/icons/sp.svg" class="icon" />
+                        <div>
+                          <span class="dropdown-link-title">Testimonials</span>
+                          <p>What are students say about us?</p>
+                        </div>
+                      </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#creative-feed">
+                        <img src="./assets/icons/cf.svg" class="icon" />
+                        <div>
+                          <span class="dropdown-link-title">Student Login</span>
+                          <p>Download your leaving certificates</p>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+
+                  <ul role="menu">
+                    <li class="dropdown-title">
+                      <span class="dropdown-link-title">Follow Us On Social Media</span>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#adobe-xd">
+                        <img src="images/instagram.png" height="25px" width="25px" />
+                        Instagram
+                      </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#after-effect">
+                        <img src="images/facebook.png" height="25px" width="25px" />
+                        Facebook
+                      </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#sketch">
+                        <img src="images/gmail.png" height="25px" width="25px" />
+                        Gmail
+                      </a>
+                    </li>
+                    <li role="menuitem">
+                      <a class="dropdown-link" href="#sketch">
+                        <img src="images/twitter.png" height="25px" width="25px" />
+                        Twitter
+                      </a>
+                    </li>
+                    <li role="menuitem"></li>
+                    <a class="dropdown-link" href="#sketch">
+                      <img src="images/whatsapp.png" height="25px" width="25px" />
+                      Whatsapp
+                    </a>
+              </li>
+              <li role="menuitem"></li>
+              <a class="dropdown-link" href="#sketch">
+                <img src="images/linkedin.png" height="25px" width="25px" />
+                LinkedIn
+              </a>
+              </li>
+            </ul>
+        </div>
+        </li>
+        <li>
+          <button class="nav-link dropdown-btn" data-dropdown="dropdown2" aria-haspopup="true" aria-expanded="false"
+            aria-label="discover">
+            About Us
+            <i class="bx bx-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div id="dropdown2" class="dropdown">
+            <ul role="menu">
+              <li>
+                <span class="dropdown-link-title">Authorities Message</span>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#branding">Principal's Message</a>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#illustrations">Founder's Message</a>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#branding">Secratary's Message</a>
+              </li>
+            </ul>
+            <ul role="menu">
+              <li>
+                <span class="dropdown-link-title">Institute Introduction</span>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#mac-windows">History, Vision & Mission</a>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#linux">School Management Committee</a>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#linux">Sexual Harassment Committee</a>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#linux">PTA Executive Committee Members</a>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#linux">Alumni</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <button class="nav-link dropdown-btn" data-dropdown="dropdown3" aria-haspopup="true" aria-expanded="false"
+            aria-label="discover">
+            Admissions
+            <i class="bx bx-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div id="dropdown3" class="dropdown">
+            <ul role="menu">
+              <li>
+                <span class="dropdown-link-title">Know Us More</span>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#branding">Health Guildlines</a>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#illustrations">Why Sarhad</a>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#branding">Discover Sarhad</a>
+              </li>
+              <li role="menuitem"></li>
+              <a class="dropdown-link" href="#branding">Rules & Regulations</a>
+        </li>
+        </ul>
+        <ul role="menu">
+          <li>
+            <span class="dropdown-link-title">Parent's Section</span>
+          </li>
+          <li role="menuitem">
+            <a class="dropdown-link" href="#mac-windows">Instruction to Parents</a>
+          </li>
+
+        </ul>
+      </div>
+      </li>
+
+      <li>
+        <button class="nav-link dropdown-btn" data-dropdown="dropdown4" aria-haspopup="true" aria-expanded="false"
+          aria-label="discover">
+          Facilities
+          <i class="bx bx-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="dropdown4" class="dropdown">
+          <ul role="menu">
+            <li>
+              <span class="dropdown-link-title">Our Amenities</span>
+            </li>
+            <li role="menuitem">
+              <a class="dropdown-link" href="#branding">Library</a>
+            </li>
+            <li role="menuitem">
+              <a class="dropdown-link" href="#illustrations">Computer Lab</a>
+            </li>
+            <li role="menuitem">
+              <a class="dropdown-link" href="#branding">Sports</a>
+            </li>
+
+            <ul role="menu">
+              <li>
+                <span class="dropdown-link-title">Other Amenities</span>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#mac-windows">School Bus</a>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#mac-windows">Art & Music</a>
+              </li>
+              <li role="menuitem">
+                <a class="dropdown-link" href="#mac-windows">Co-curricular Activities</a>
+              </li>
+
+            </ul>
+        </div>
+      </li>
+
+      <li>
+        <button class="nav-link dropdown-btn" data-dropdown="dropdown5" aria-haspopup="true" aria-expanded="false"
+          aria-label="discover">
+          Academics
+          <i class="bx bx-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div id="dropdown5" class="dropdown">
+          <ul role="menu">
+            <li>
+              <span class="dropdown-link-title">Seggregation of Classes</span>
+            </li>
+            <li role="menuitem">
+              <a class="dropdown-link" href="#branding">Pre Primary Classes</a>
+            </li>
+            <li role="menuitem">
+              <a class="dropdown-link" href="#illustrations">Primary Classes</a>
+            </li>
+            <li role="menuitem">
+              <a class="dropdown-link" href="#branding">Middle Classes</a>
+            </li>
+            <li role="menuitem"></li>
+            <a class="dropdown-link" href="#branding">Secondary Classes</a>
+      </li>
+
+
+      <ul role="menu">
+        <li>
+          <span class="dropdown-link-title">Calender</span>
+        </li>
+        <li role="menuitem">
+          <a class="dropdown-link" href="#mac-windows">Academic Planner</a>
+        </li>
+
+
+      </ul>
+    </div>
+    </li>
+
+    <li>
+      <button class="nav-link dropdown-btn" data-dropdown="dropdown6" aria-haspopup="true" aria-expanded="false"
+        aria-label="discover">
+        Achievements
+        <i class="bx bx-chevron-down" aria-hidden="true"></i>
+      </button>
+      <div id="dropdown6" class="dropdown">
+        <ul role="menu">
+          <li>
+            <span class="dropdown-link-title">Awards</span>
+          </li>
+          <li role="menuitem">
+            <a class="dropdown-link" href="#branding">Bagged Awards</a>
+          </li>
+
+
+          <ul role="menu">
+            <li>
+              <span class="dropdown-link-title">Certificates</span>
+            </li>
+            <li role="menuitem">
+              <a class="dropdown-link" href="#mac-windows">Deserving Certifications</a>
+            </li>
+
+
+          </ul>
+      </div>
+    </li>
+
+    <li>
+      <button class="nav-link dropdown-btn" data-dropdown="dropdown7" aria-haspopup="true" aria-expanded="false"
+        aria-label="discover">
+        Gallery
+        <i class="bx bx-chevron-down" aria-hidden="true"></i>
+      </button>
+      <div id="dropdown7" class="dropdown">
+        <ul role="menu">
+          <li>
+            <span class="dropdown-link-title">Mesmerizing Moments</span>
+          </li>
+          <li role="menuitem">
+            <a class="dropdown-link" href="#branding">Gallery At Glance</a>
+          </li>
+        </ul>
+      </div>
+    </li>
+    <li><a class="nav-link" href="/">Mandatory Public Disclosure</a></li>
+    <li><a class="nav-link" href="/">Careers</a></li>
+    <li><a class="nav-link" href="/">Contact Us</a></li>
+    </ul>
+    </nav>
+    </div>
+    <button id="hamburger" aria-label="hamburger" aria-haspopup="true" aria-expanded="false">
+      <i class="bx bx-menu" aria-hidden="true"></i>
+    </button>
+    </div>
+    </div>
+    </div>
+  </header>
+  <!-- </div> -->
+
+  <!-- scrolling images begin -->
+
+  <div class="carousel-container" id="carousel-container">
+    <div class="carousel-images" id="carousel-images">
+      <img src="images/clgbuildingbg.jpeg" alt="Image 1">
+      <img src="images/carousel1.jpg" alt="Image 2">
+      <img src="images/carousel2.jpg" alt="Image 3">
+      <img src="images/carousel3.jpg" alt="Image 4">
+      <img src="images/carousel4.jpg" alt="Image 5">
+    </div>
+    <button class="prev" id="prev">&#10094;</button>
+    <button class="next" id="next">&#10095;</button>
+  </div>
+
+  <!-- marquee section  -->
+
+  <div class="marquee-container">
+
+    <div class="marquee-icon">
+      <img src="images/newspaper.png" alt="News Icon"> <!-- Replace with your icon if needed -->
+      <div class="icon-text">LATEST NEWS</div>
+    </div>
+
+    <div class="marquee-content-wrapper">
+      <div class="marquee-content">
+        <div class="date-circle">
+          <span>06<br>Apr</span>
+        </div>
+        <div class="news-text">
+          WELCOME TO SARHAD CBSE SCHOOL
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- topper section  -->
+
+  <div class="carousel-container_topper">
+    <h1>10 <sup>th</sup> Topper - 2024-25 </h1>
+
+    <!-- First Slide -->
+    <div class="main-slide active" id="slide0">
+      <img src="images/profilepic.png" alt="Topper">
+      <div class="slide-content">
+        <h2 class="student-name">Arya Kadam - 96.04%</h2>
+        <div class="appreciation-words">Outstanding in Mathematics and One of the bright students from the C division of
+          the 10th batch 2024-25.</div>
+      </div>
+    </div>
+
+    <!-- Second Slide -->
+    <div class="main-slide" id="slide1">
+      <img src="images/profilepic.png" alt="Topper">
+      <div class="slide-content">
+        <h2 class="student-name">Miss. Mansavi Sontakke - 97.00%</h2>
+        <div class="appreciation-words">Excellent in Science and One of the bright students from the C division of the
+          10th batch 2024-25.</div>
+      </div>
+    </div>
+
+    <!-- Third Slide -->
+    <div class="main-slide" id="slide2">
+      <img src="images/profilepic.png" alt="Topper">
+      <div class="slide-content">
+        <h2 class="student-name">Shreya Waswand - 96.00%</h2>
+        <div class="appreciation-words">Top Scorer in Physics and One of the bright students from the C division of the
+          10th batch 2024-25.</div>
+      </div>
+    </div>
+
+    <!-- Thumbnails -->
+    <div class="carousel-thumbnails">
+      <div class="thumbnail" onclick="showSlide(0)">
+        <img src="images/profilepic.png" alt="Slide 1">
+        <h4>96.04%</h4>
+      </div>
+      <div class="thumbnail" onclick="showSlide(1)">
+        <img src="images/profilepic.png" alt="Slide 2">
+        <h4>97.00%</h4>
+      </div>
+      <div class="thumbnail" onclick="showSlide(2)">
+        <img src="images/profilepic.png" alt="Slide 3">
+        <h4>96.00%</h4>
+      </div>
+    </div>
+
+    <div class="carousel-thumbnails_2">
+      <div class="thumbnail" onclick="showSlide(0)">
+        <img src="images/profilepic.png" alt="Slide 1">
+        <h4>96.04%</h4>
+      </div>
+      <div class="thumbnail" onclick="showSlide(1)">
+        <img src="images/profilepic.png" alt="Slide 2">
+        <h4>97.00%</h4>
+      </div>
+      <div class="thumbnail" onclick="showSlide(2)">
+        <img src="images/profilepic.png" alt="Slide 3">
+        <h4>96.00%</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- achivements begin  -->
+
+  <div class="responsive-container-block bigContainer">
+    <h1>achivements</h1>
+    <div class="responsive-container-block Container">
+      <div class="responsive-container-block leftSide">
+        <h3 class="text-blk subHeading">
+          At Sarhad CBSE, we celebrate our students' remarkable achievements that reflect their hard work and
+          dedication. From academic excellence to outstanding performances in sports and arts, our students consistently
+          demonstrate their talent and commitment. Together, we foster an environment that nurtures growth, inspires
+          creativity, and shapes future leaders.
+        </h3>
+        <button class="view_more_acivements">VIEW MORE</button>
+      </div>
+      <div class="responsive-container-block rightSide">
+        <img class="number1img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET32.jpg">
+        <img class="number2img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d14.png">
+        <img class="number3img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b245.png">
+        <img class="number5img"
+          src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Customer supports.png">
+        <iframe allowfullscreen="allowfullscreen" class="number4vid"
+          poster="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b242.png"
+          src="https://www.youtube.com/embed/svg%3E?">
+        </iframe>
+        <img class="number7img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d51.png">
+        <img class="number6img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d12.png">
+      </div>
+    </div>
+  </div>
+
+  <!-- facilities begin  -->
+
+  <h1>Facilities</h1>
+  <div class="counter-container">
+    <div class="counter-box">
+      <div class="counter-icon"><img src="images/front-of-bus.png" alt=""></div>
+      <!-- Replace with an icon library like Font Awesome if needed -->
+      <div class="counter-number">40+</div>
+      <br>
+      <div class="counter-text">Bus</div>
+    </div>
+    <div class="counter-box">
+      <div class="counter-icon"><img src="images/classroom.png" alt=""></div>
+      <!-- Replace with an icon library like Font Awesome if needed -->
+      <div class="counter-number">100+</div>
+      <br>
+      <div class="counter-text">Classroom</div>
+    </div>
+    <div class="counter-box">
+      <div class="counter-icon"><img src="images/cctv-camera.png" alt=""></div>
+      <!-- Replace with an icon library like Font Awesome if needed -->
+      <div class="counter-number">200+</div>
+      <br>
+      <div class="counter-text">CCTV</div>
+    </div>
+    <div class="counter-box">
+      <div class="counter-icon"><img src="images/computer.png" alt=""></div>
+      <!-- Replace with an icon library like Font Awesome if needed -->
+      <div class="counter-number">70+</div>
+      <br>
+      <div class="counter-text">Computer's</div>
+    </div>
+  </div>
+  <button class="facilities_btn">VIEW MORE</button>
+
+ <!-- testimonial begin here  -->
+  <div class="testimonialbody" id="testimonialCarousel">
+    <h1>Testimonials</h1>
+    <div class="testimonial-container">
+        <button class="nav-btn_testimonial left-btn_testimonial">&#10094;</button>
+        <div class="testimonial-wrapper">
+            <div class="testimonial">
+                <img src="images/neeta-sharma.jpg" alt="Client Photo">
+                <p>“Sarhad School is undoubtedly the best School in Pune for its commitment and responsibility towards students.”</p>
+                <h3>Nita Sharma</h3>
+            </div>
+            <div class="testimonial">
+                <img src="images/anita-patil.jpg" alt="Client Photo">
+                <p>“What I am today is because of the Sarhad School. The teachers are very helpful and committed towards students.”</p>
+                <h3>Anita Patil</h3>
+            </div>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/150" alt="Client Photo">
+                <p>Education is most important for taking all teachers’ responsibility is very well all teachers in Sarhad College.</p>
+                <h3>Renuka Gaikwad</h3>
+            </div>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/150" alt="Client Photo">
+                <p>Sarhad envisages to establish itself as one of the best centers in South Asia.</p>
+                <h3>Amruta Rananavare</h3>
+            </div>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/150" alt="Client Photo">
+                <p>All staff of all courses are too good..they are very helpful.. Our college is the best college.</p>
+                <h3>Prachi Kapse</h3>
+            </div>
+        </div>
+        <button class="nav-btn_testimonial right-btn_testimonial">&#10095;</button>
+    </div>
+</div>
+
+  <!-- footer begin -->
+
+  <footer class="footer-container">
+    <div class="footer">
+      <div class="footer-section">
+        <img src="images/Logo.png" alt="" height="200">
+        <br>
+      </div>
+
+      <div class="footer-section">
+        <h2>Sarhad School CBSE</h2>
+
+        <p>S.no.79, 80, 81, 76/4, Opp. Katraj Dairy Outlet 2, Pune-Kashmir Mitri Chowk, Katraj, Pune, Maharashtra 411046
+        </p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#showcase">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Admissions</a></li>
+          <li><a href="#">Courses</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d121108.37951521743!2d73.854246!3d18.45479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c065a7fe2d9b%3A0x1ebfa3f8b96b6cbe!2sSarhad%20School%20-%20Katraj!5e0!3m2!1sen!2sus!4v1725301856688!5m2!1sen!2sus"
+            width="350px" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © 2022 SARHAD SCHOOL CBSE | Powered by IT SARHAD</p>
+    </div>
+  </footer>
+  <script src="javascript/navbar.js"></script>
+  <script src="javascript/topsectionimage.js"></script>
+  <script src="javascript/toppersection.js"></script>
+  <script src="javascript/testimonial.js"></script>
+</body>
+
+</html>
